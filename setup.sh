@@ -247,12 +247,12 @@ show_help() {
     echo ""
     echo "Example usage:"
     echo "  # Complete setup from scratch:"
-    echo "  curl -sSL https://raw.githubusercontent.com/octra-labs/ocs01-test/main/easy-setup.sh | bash"
+    echo "  curl -sSL https://raw.githubusercontent.com/furidngrt/ocs01-test/refs/heads/master/setup.sh | bash"
     echo ""
     echo "  # Or download and run:"
-    echo "  wget https://raw.githubusercontent.com/octra-labs/ocs01-test/main/easy-setup.sh"
-    echo "  chmod +x easy-setup.sh"
-    echo "  ./easy-setup.sh"
+    echo "  wget https://raw.githubusercontent.com/furidngrt/ocs01-test/refs/heads/master/setup.sh"
+    echo "  chmod +x setup.sh"
+    echo "  ./setup.sh"
     echo ""
 }
 
@@ -351,7 +351,7 @@ cleanup() {
         print_error "Setup failed! Check the error messages above."
         print_info "You can run this script again to retry."
         print_info "If the repository was cloned, you can also run:"
-        print_info "  cd ocs01-test && ./easy-setup.sh --skip-clone"
+        print_info "  cd ocs01-test && ./setup.sh --skip-clone"
     fi
 }
 
