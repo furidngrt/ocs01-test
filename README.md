@@ -1,4 +1,4 @@
-## Quick Start
+## Easy Setup
 
 ```
 wget https://raw.githubusercontent.com/furidngrt/ocs01-test/master/setup.sh
